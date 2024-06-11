@@ -1,0 +1,21 @@
+ 1858  docker ps -a
+ 1859  docker image ls
+ 1860  docker image prune
+ 1861  docker rmi cd
+ 1862  docker rmi b72
+ 1863  docker rmi f5
+ 1864  docker rmi d2
+ 1865  docker rmi 4e
+ 1866  docker rmi 99
+ 1867  docker images
+ 1868  docker ps -a
+ 1869  docker container stop 711
+ 1870  docker container rm 711
+ 1871  docker container stop f17
+ 1872  docker container rm f17
+ 1873  docker container stop 038
+ 1874  docker container rm 038
+ 1875  docker images -a
+ 1876  docker rmi 4f
+ 1877  docker ps -a
+ 1878  docker images
