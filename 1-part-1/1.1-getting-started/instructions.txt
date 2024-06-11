@@ -1,0 +1,4 @@
+ 1846  docker container run -d nginx
+ 1847  docker container stop 03
+ 1848  docker container stop f1
+ 1849  docker ps -a
