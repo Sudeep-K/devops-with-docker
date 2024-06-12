@@ -1,0 +1,16 @@
+67  docker run -it --name=website-fetcher ubuntu sh -c 'while true; do echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website; done'
+83  docker exec -it website-fetcher bash
+root@e654cb45de7c:/# apt update
+root@e654cb45de7c:/# apt upgrade
+root@e654cb45de7c:/# apt install curl
+root@e654cb45de7c:/# exit
+88   docker attach website-fetcher
+helsinki.fi
+Searching..
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx/1.22.1</center>
+</body>
+</html>
