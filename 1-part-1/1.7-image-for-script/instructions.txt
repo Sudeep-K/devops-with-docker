@@ -1,0 +1,5 @@
+123  nano script.sh
+124  nano Dockerfile
+125  docker image build . -t curler
+126  docker images
+127  docker run -it curler
