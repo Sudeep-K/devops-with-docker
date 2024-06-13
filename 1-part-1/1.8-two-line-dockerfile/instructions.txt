@@ -1,0 +1,3 @@
+139  nano Dockerfile 
+140  docker build . -t web-server
+142  docker run web-server
