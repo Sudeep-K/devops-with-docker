@@ -1,0 +1,5 @@
+2006  docker pull devopsdockeruh/simple-web-service:ubuntu
+2007  docker pull devopsdockeruh/simple-web-service:alpine
+2009  docker  ps
+2010  docker container run -d --name simple-web-service devopsdockeruh/simple-web-service:alpine
+2011  docker exec simple-web-service tail -f ./text.log
