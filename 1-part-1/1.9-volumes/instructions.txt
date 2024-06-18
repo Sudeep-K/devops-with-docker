@@ -1,0 +1,2 @@
+136  touch text.log
+138  docker run -v "$(pwd)/text.log:/usr/src/app/text.log" devopsdockeruh/simple-web-service:alpine 
